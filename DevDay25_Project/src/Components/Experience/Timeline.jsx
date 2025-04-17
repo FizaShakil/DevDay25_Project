@@ -41,7 +41,7 @@ const Timeline = () => {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <div id='ExperienceTimeline' className="max-w-4xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold text-center mb-12 text-blue-950">
         Experience Timeline
       </h1>

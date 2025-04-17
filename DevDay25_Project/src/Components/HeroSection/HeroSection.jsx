@@ -1,11 +1,13 @@
 import React from 'react';
 import heroimage from "../../images/heroimage.jpg";
-
+import Header from '../Header-Footer/Header';
 
 const HeroSection = () => {
   return (
-    <section
-      className="w-full h-[500px]  md:h-screen bg-cover bg-center flex items-center justify-start"
+    <>
+    <Header/>
+    <section id="Home"
+      className="w-full h-[500px] relative  md:h-screen bg-cover bg-center pt-[80px] flex items-center justify-start"
       style={{ backgroundImage: `url(${heroimage})` }}
     >
       <div className="bg-black bg-opacity-60 w-full h-full flex items-center px-4 sm:px-10 md:px-24 py-10">
@@ -31,6 +33,7 @@ const HeroSection = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

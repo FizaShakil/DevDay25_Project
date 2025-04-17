@@ -1,42 +1,38 @@
 import React from "react";
-import { Briefcase, Building2, Globe, Rocket } from "lucide-react";
-
-const companies = [
-  {
-    name: "Acme Corp",
-    icon: <Briefcase size={28} />, // Business icon
-  },
-  {
-    name: "Globex Corporation",
-    icon: <Globe size={28} />, // Global icon
-  },
-  {
-    name: "Vertex Dynamics",
-    icon: <Rocket size={28} />, // Startup feel
-  },
-  {
-    name: "Innova Solutions",
-    icon: <Building2 size={28} />, // Corporate
-  },
-];
+import Timeline from './Timeline'
+import Certifications from './Certifications'
+import aboutimg from '../../images/aboutimg.jpg'
 
 export default function Experience() {
   return (
-    <div className="p-6 bg-white text-blue-950 rounded-xl shadow-sm">
-      <h2 className="text-2xl font-bold mb-4">I have worked</h2>
-      <div className="flex gap-6 overflow-x-auto">
-        {companies.map((company, index) => (
-          <div
-            key={index}
-            className="flex flex-col items-center bg-blue-50 hover:bg-blue-950 hover:text-white transition-all duration-300 rounded-full w-24 h-24 justify-center shadow-md"
-          >
-            {company.icon}
-            <span className="text-sm mt-2 font-medium text-center">
-              {company.name.split(" ")[0]}
-            </span>
-          </div>
-        ))}
+   <div>
+    <div>
+    <section id="About" className="py-16 px-4 sm:px-10 md:px-24 bg-white">
+      <div className="flex flex-col md:flex-row items-center gap-10">
+        
+        {/* Image */}
+        <div className="w-full md:w-1/2">
+          <img 
+            src={aboutimg} 
+            alt="About" 
+            className="w-full h-auto object-cover rounded-xl shadow-md"
+          />
+        </div>
+
+        {/* Text Content */}
+        <div id="About" className="w-full md:w-1/2 text-center md:text-left">
+          <h2 className="text-3xl sm:text-4xl font-bold text-blue-950 mb-4">
+            About Us
+          </h2>
+          <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+            At Globex, we’re driven by innovation and passion for tech. Our team collaborates to create impactful solutions tailored to each client's needs. We blend creativity with strategy to help businesses grow and scale.
+          </p>
+        </div>
       </div>
+    </section>
     </div>
+    <Timeline/>
+    <Certifications/>
+   </div>
   );
 }
