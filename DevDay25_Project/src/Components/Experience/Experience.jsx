@@ -7,7 +7,7 @@ const companies = [
     icon: <Briefcase size={28} />, // Business icon
   },
   {
-    name: "Proton Corporation",
+    name: "Globex Corporation",
     icon: <Globe size={28} />, // Global icon
   },
   {
@@ -22,9 +22,9 @@ const companies = [
 
 export default function Experience() {
   return (
-    <div className="p-6 bg-white text-blue-950 rounded-xl shadow-sm w-full">
-      <h2 className="text-2xl font-bold mb-6 text-center">Companies Worked With</h2>
-      <div className="flex flex-wrap justify-center gap-6">
+    <div className="p-6 bg-white text-blue-950 rounded-xl shadow-sm">
+      <h2 className="text-2xl font-bold mb-4">I have worked</h2>
+      <div className="flex gap-6 overflow-x-auto">
         {companies.map((company, index) => (
           <div
             key={index}
