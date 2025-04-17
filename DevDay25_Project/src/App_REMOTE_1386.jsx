@@ -7,6 +7,7 @@ import Projects from '../src/Components/Projects/Projects.jsx'
 import Form from "./Components/BookConsultation/Form.jsx"
 
 function App() {
+
   return (
     <>
     <Header/>
@@ -16,7 +17,7 @@ function App() {
     <Form/>
     <Footer/>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
