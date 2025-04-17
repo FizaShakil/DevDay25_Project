@@ -1,9 +1,10 @@
-import { useState } from 'react'
-import Header from './Components/Header-Footer/Header'
-import Footer from './Components/Header-Footer/Footer'
-import HeroSection from './Components/HeroSection/HeroSection.jsx'
-import Experience from './Components/Experience/Experience.jsx'
-import Projects from './Components/Projects/Projects.jsx'
+import React from "react"
+import Header from '../src/Components/Header-Footer/Header.jsx'
+import Footer from '../src/Components/Header-Footer/Footer'
+import HeroSection from '../src/Components/HeroSection/HeroSection.jsx'
+import Experience from '../src/Components/Experience/Experience.jsx'
+import Projects from '../src/Components/Projects/Projects.jsx'
+import Form from "./Components/BookConsultation/Form.jsx"
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
     <HeroSection/>
     <Experience/>
     <Projects/>
-    <BookConsultation/>
+    <Form/>
     <Footer/>
     </>
   )
