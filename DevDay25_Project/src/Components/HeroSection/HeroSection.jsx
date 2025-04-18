@@ -1,7 +1,6 @@
 import React from 'react';
 import heroimage from "../../images/heroimage.jpg";
 import Header from '../Header-Footer/Header';
-
 const HeroSection = () => {
   return (
     <>
@@ -19,16 +18,20 @@ const HeroSection = () => {
 
           <p className="mt-4 text-sm sm:text-base md:text-lg text-gray-300">
             Unlock your brand's potential with tailored strategies focused on marketing, performance,
-            and positioning — all designed to deliver measurable results.
+            and positioning all designed to deliver measurable results.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
+            <a href="#BookConsultation">
             <button className="text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3 bg-blue-950 text-white rounded-full hover:bg-white hover:text-blue-950 transition">
               Book a Session
             </button>
+            </a>
+            <a href="../../Resume.docx" download>
             <button className="text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3 border border-white text-white rounded-full hover:bg-white hover:text-black transition">
               Resume
             </button>
+            </a>
           </div>
         </div>
       </div>

@@ -38,7 +38,7 @@ const BookConsultation = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
           <a
-            href="https://calendly.com/your-calendar-link"
+            href="https://calendar.google.com/calendar/u/0/r?pli=1"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-950 text-white px-6 py-3 rounded-full text-center hover:bg-white hover:text-blue-950 hover:border hover:border-blue-950 transition"

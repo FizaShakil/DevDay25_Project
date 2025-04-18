@@ -65,15 +65,15 @@ const Timeline = () => {
             </div>
 
             {/* Timeline dot */}
-            <div className="relative w-8 h-8 bg-blue-950 rounded-full border-4 border-white z-10 mx-auto my-4 sm:my-0 hover:bg-blue-700 transition-colors duration-300"></div>
+            <div className="relative w-8 h-8 bg-blue-950 rounded-full border-4 border-white z-10 mx-auto my-4 sm:my-0 hover:bg-blue-950 transition-colors duration-300"></div>
 
             {/* Experience card */}
             <div className="w-full sm:w-1/2 px-4 py-2 group">
-              <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 hover:bg-blue-800 hover:shadow-xl transition-all duration-300">
+              <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 hover:bg-blue-950 hover:shadow-xl transition-all duration-300">
                 <h2 className="text-xl font-bold text-blue-950 mb-1 group-hover:text-white">
                   {exp.role}
                 </h2>
-                <h3 className="text-lg font-semibold text-blue-800 mb-3 group-hover:text-blue-200">
+                <h3 className="text-lg font-semibold text-blue-950 mb-3 group-hover:text-blue-200">
                   {exp.company}
                 </h3>
                 <p className="text-gray-700 mb-4 group-hover:text-blue-100">
