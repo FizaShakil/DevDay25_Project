@@ -49,6 +49,10 @@ A clean, modern, and professional single-page portfolio website designed for a c
 - **Form Handling**: EmailJS / Formspree / Custom backend
 - **Calendar Integration**: Calendly or similar tools
 
+## 🤖 AI Assistance
+
+This project utilized [ChatGPT](https://openai.com/chatgpt) for idea generation, code assistance, and content refinement during development.
+
 ## 🚀 Getting Started
 
 ```bash
@@ -56,3 +60,4 @@ git clone https://github.com/FizaShakil/DevDay25_Project.git
 cd DevDay25_Project
 npm install
 npm start
+```
