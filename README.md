@@ -60,4 +60,8 @@ git clone https://github.com/FizaShakil/DevDay25_Project.git
 cd DevDay25_Project
 npm install
 npm start
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 8c43cfb45b64744b11cfc7989e7dc1caa4a4ba95
